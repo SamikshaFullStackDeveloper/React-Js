@@ -1,0 +1,27 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+#Input{
+    width: 5%;
+    height: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+button {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 10%;
+    height: 5%;
+    font-size: 20px;
+}

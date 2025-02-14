@@ -1,0 +1,71 @@
+import "./App.css"
+// import BulbImage from "./Image/Bulb";
+// import DynamicImgTwo from "./Image/DynamicImgTwo";
+// import ConditionalJSX from "./Component/ConditionalJSX";
+// import DynamicImage from "./Image/DynamicImage";
+// import HomePage from "./Portfolio/HomePage";
+// import LoopJSX from "./Component/LoopJSX";
+// import SimpleJSX from "./Component/SimpleJSX";
+// import NewTable from "./NewTable";
+// import Player from "./Player";
+// import Movies from "./Movies";
+// import Table from "./Table"
+// import Counter from "./Counter";
+// import Addition from  "./Addition";
+// import { Audio } from 'react-loader-spinner'
+// import ProfileImage from "./Profile/ProfileImage";
+// import ProfileImageGray from "./Profile/ProfileImageGray";
+// import ProfileImageGreen from "./Profile/ProfileImageGreen";
+import Amazon from "./Amazon";
+// import { ProfileImage,
+//   ProfileImgGray,
+//   ProfileImgGreen } from "./Profile";
+
+
+function App() {
+  //   const styleOne = { backgroundColor: "lightblue", fonstsize: "14px" };
+  //   const styleTwo = { backgroundColor: "yellow", fonstsize: "14px" };
+
+  return (
+    <div className="App">
+      {/* <NewTable/> */}
+      {/* <Player/> */}
+      {/* {<Table/>} */}
+      {/* { <Movies />} */}
+      {/* {/ {/ <Player/> /} /} */}
+      {/* <Counter buttonName="yellow" styleColor={{backgroundColor:"yellow"}}/>
+      <Counter buttonName="blue" styleColor={{backgroundColor:"blue"}}/>
+      <Counter buttonName="green" styleColor={{backgroundColor:"green"}}/>
+      <Counter buttonName="red" styleColor={{backgroundColor:"red"}}/>
+      <Counter buttonName="violet" styleColor={{backgroundColor:"violet"}}/> */}
+      {/* //  <Addition/> */}
+      {/* <ProfileImage />
+      <ProfileImgGray />
+      <ProfileImgGreen /> */}
+         {/* <SimpleJSX/> */}
+         {/* <LoopJSX/> */}
+         {/* <ConditionalJSX/> */}
+          {/* <HomePage/> */}
+           {/* <DynamicImage/> */}
+           {/* <DynamicImgTwo/> */}
+            {/* <BulbImage/> */}
+            {/* <DynamicImgTwo/> */}
+        {/* <MyComponent teamName={"INDIA"} buttonStyle={styleOne}/>                        
+      <MyComponent teamName={"AUSTRALIA"} buttonStyle={styleTwo}/>  */}
+       <Amazon/>
+
+      {/* <Audio
+          height="80"
+          width="80"
+          radius="9"
+          color="green"
+          ariaLabel="loading"
+          wrapperStyle
+          wrapperClass
+        /> */}
+
+    </div>
+  );
+}
+
+export default App;

@@ -1,0 +1,62 @@
+body {
+/* background-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/mern_stackalternatives.jpg); */
+ /* background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 400px;
+  margin-top: 200px;
+ margin-left: 250px; */
+ background-color: whitesmoke;
+}
+.App { 
+ text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 8.1s linear;
+  }
+}
+
+/* .App-header {
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(50px + 2vmin);
+  color: black;
+
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+.button {
+  width: 20vw;
+  height: 44px;
+  margin: 20px;
+  /* background-color: lightblue; */
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

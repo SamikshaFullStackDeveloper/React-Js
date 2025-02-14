@@ -1,0 +1,16 @@
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    gap: 20px;
+    font-size: 20px;
+}
+.name{
+  margin-left: 200px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+} 
