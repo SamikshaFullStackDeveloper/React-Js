@@ -1,0 +1,54 @@
+/* Form-Container */
+.main{
+height: 50vh;
+width: 30vw;
+border-radius: 8px;
+padding: 20px;
+margin-right: 500px;
+
+
+}
+h1{
+    color: #333;
+}
+/* Input fields */
+
+input {
+    height: 40px;   
+   width: 70%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 8px;
+}
+/* Label */
+label{
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+/* Button */
+.Button {
+    width: 40%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+/* Button hover effect */
+.Button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+.panel{
+    height:50vh;
+    width: 20vw;
+  background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:px;
+
+
+}
