@@ -2,6 +2,7 @@ import React from "react";
 import "./Panel.css";
 import CoinCard from "./CoinCard";
 
+
 export default class Panel extends React.Component {
     constructor(props) {
         super(props);
@@ -11,10 +12,10 @@ export default class Panel extends React.Component {
             coinFiveCounter: 0,
             coinTenCounter: 0,
             coinTwentyCounter: 0,
-
         };
     }
-         incrementCounter = (coin) => {
+    // incrementCounter
+    incrementCounter = (coin) => {
         if (coin === "One") {
             this.setState({ coinOneCounter: this.state.coinOneCounter += 1 });
         } else if (coin === "Two") {
@@ -31,21 +32,21 @@ export default class Panel extends React.Component {
         return (
             <div className="panel">
                 <CoinCard
-                    imageName="one-coin.png"
+                    imageName="one.png"
                     coinText="One"
                     coinCounter={this.state.coinOneCounter}
                     onCoinClick={this.props.onCoinClick}
                     incrementCounter={this.incrementCounter}
                 />
                 <CoinCard
-                    imageName="two-coin .png"
+                    imageName="two.png"
                     coinText="Two"
                     coinCounter={this.state.coinTwoCounter}
                     onCoinClick={this.props.onCoinClick}
                     incrementCounter={this.incrementCounter}
                 />
                 <CoinCard
-                    imageName="five-coin.png"
+                    imageName="five.png"
                     coinText="Five"
                     coinCounter={this.state.coinFiveCounter}
                     onCoinClick={this.props.onCoinClick}
@@ -53,18 +54,18 @@ export default class Panel extends React.Component {
                 />
 
                 <CoinCard
-                    imageName="ten-coin.png"
+                    imageName="ten.png"
                     coinText="Ten"
                     coinCounter={this.state.coinTenCounter}
                     onCoinClick={this.props.onCoinClick}
                     incrementCounter={this.incrementCounter}
                 />
-                <CoinCard 
-                 imageName="twenty-coin.png"
-                 coinText="Twenty"
-                 coinCounter={this.state.coinTwentyCounter}
-                  onCoinClick={this.props.onCoinClick}
-                  incrementCounter={this.incrementCounter}
+                <CoinCard
+                    imageName="twenty.png"
+                    coinText="Twenty"
+                    coinCounter={this.state.coinTwentyCounter}
+                    onCoinClick={this.props.onCoinClick}
+                    incrementCounter={this.incrementCounter}
                 />
 
 

@@ -1,0 +1,22 @@
+.rating {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #f5c518;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    margin-right: 1300px;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #e0b415;
+}

@@ -1,6 +1,7 @@
 import React from "react";
  import "./Dashboard.css"
  import Panel from "./Panel";
+import CoinCard from "./CoinCard";
  export default class Dashboard  extends  React.Component{
     constructor(props){
         super(props);
@@ -27,6 +28,7 @@ render(){
         <div className="main-container">
  <div className="counter-box"> Total = {this.state.total}</div>
  <Panel onCoinClick={this.onCoinClick}/>
+ 
  
         </div>
     )
