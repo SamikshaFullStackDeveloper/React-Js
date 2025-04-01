@@ -1,0 +1,9 @@
+.Button{
+    width: 20%;
+    height: 40px;
+    color: aliceblue;
+    border: 1 px solid balck;
+   grid-template-columns: 1%;
+     margin-top: 1%; 
+     margin-left: 400px;
+}

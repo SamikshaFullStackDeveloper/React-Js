@@ -1,0 +1,44 @@
+.container {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/046/085/204/small_2x/a-detailed-look-at-the-tingedge-technology-behind-a-stadiums-energyefficient-led-lighting-design-photo.jpg");
+    background-size: cover;
+    padding: 1%;
+
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.playersOne {
+    height: 100vh;
+    width: 45%;
+    padding: 20px;      
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+
+}
+
+.playersTwo {
+    height: 100vh;
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+}
+h1{
+    font-size: 50px;
+    color: #ccc;
+    margin-left: 500px;
+
+}
